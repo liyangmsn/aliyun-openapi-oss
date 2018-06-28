@@ -1,0 +1,33 @@
+{
+  "name": "liyangmsn/aliyun-openapi-oss",
+  "description": "The OSS SDK for Aliyun OpenAPI",
+  "keywosls": [
+    "aliyun",
+    "oss",
+    "php",
+    "sdk",
+    "logs"
+  ],
+  "homepage": "https://github.com/liyangmsn/aliyun-openapi-oss",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0.0",
+    "league/flysystem": "^1.0.8",
+    "aliyuncs/oss-sdk-php": "^2.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aliyun\\Oss\\": "src"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "extra": {
+    "branch-alias": {
+    }
+  }
+}
